@@ -1,0 +1,36 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     tictactoe
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _init_positions, symObjAddr: 0x0, symBinAddr: 0x1000076FC, symSize: 0x2BC }
+  - { offsetInCU: 0x48, offset: 0x48, size: 0x8, addend: 0x0, symName: _init_positions, symObjAddr: 0x0, symBinAddr: 0x1000076FC, symSize: 0x2BC }
+  - { offsetInCU: 0x6C, offset: 0x6C, size: 0x8, addend: 0x0, symName: _ft_place, symObjAddr: 0x2BC, symBinAddr: 0x1000079B8, symSize: 0x13C }
+  - { offsetInCU: 0x94, offset: 0x94, size: 0x8, addend: 0x0, symName: _play_hook, symObjAddr: 0x3F8, symBinAddr: 0x100007AF4, symSize: 0xE0 }
+  - { offsetInCU: 0xD8, offset: 0xD8, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x4D8, symBinAddr: 0x100007BD4, symSize: 0x150 }
+  - { offsetInCU: 0x26, offset: 0x32A, size: 0x8, addend: 0x0, symName: _win, symObjAddr: 0x0, symBinAddr: 0x100007D24, symSize: 0x280 }
+  - { offsetInCU: 0x33, offset: 0x337, size: 0x8, addend: 0x0, symName: _win, symObjAddr: 0x0, symBinAddr: 0x100007D24, symSize: 0x280 }
+  - { offsetInCU: 0x69, offset: 0x36D, size: 0x8, addend: 0x0, symName: _tie, symObjAddr: 0x280, symBinAddr: 0x100007FA4, symSize: 0x168 }
+  - { offsetInCU: 0x91, offset: 0x395, size: 0x8, addend: 0x0, symName: _ft_putimg, symObjAddr: 0x3E8, symBinAddr: 0x10000810C, symSize: 0x58 }
+  - { offsetInCU: 0xD2, offset: 0x3D6, size: 0x8, addend: 0x0, symName: _check_win, symObjAddr: 0x440, symBinAddr: 0x100008164, symSize: 0x208 }
+  - { offsetInCU: 0x26, offset: 0x643, size: 0x8, addend: 0x0, symName: _randbot, symObjAddr: 0x0, symBinAddr: 0x10000836C, symSize: 0x88 }
+  - { offsetInCU: 0x3A, offset: 0x657, size: 0x8, addend: 0x0, symName: _randbot, symObjAddr: 0x0, symBinAddr: 0x10000836C, symSize: 0x88 }
+  - { offsetInCU: 0x26, offset: 0x8B9, size: 0x8, addend: 0x0, symName: _his_best_move, symObjAddr: 0x0, symBinAddr: 0x1000083F4, symSize: 0x1BC }
+  - { offsetInCU: 0x33, offset: 0x8C6, size: 0x8, addend: 0x0, symName: _his_best_move, symObjAddr: 0x0, symBinAddr: 0x1000083F4, symSize: 0x1BC }
+  - { offsetInCU: 0x94, offset: 0x927, size: 0x8, addend: 0x0, symName: _my_best_move, symObjAddr: 0x1BC, symBinAddr: 0x1000085B0, symSize: 0x1AC }
+  - { offsetInCU: 0xF5, offset: 0x988, size: 0x8, addend: 0x0, symName: _minmax, symObjAddr: 0x368, symBinAddr: 0x10000875C, symSize: 0x174 }
+  - { offsetInCU: 0x26, offset: 0xC29, size: 0x8, addend: 0x0, symName: _play, symObjAddr: 0x0, symBinAddr: 0x1000088D0, symSize: 0x190 }
+  - { offsetInCU: 0x3A, offset: 0xC3D, size: 0x8, addend: 0x0, symName: _play, symObjAddr: 0x0, symBinAddr: 0x1000088D0, symSize: 0x190 }
+  - { offsetInCU: 0x9A, offset: 0xC9D, size: 0x8, addend: 0x0, symName: _play_as_bot, symObjAddr: 0x190, symBinAddr: 0x100008A60, symSize: 0xE0 }
+  - { offsetInCU: 0xDA, offset: 0xCDD, size: 0x8, addend: 0x0, symName: _play_as_random, symObjAddr: 0x270, symBinAddr: 0x100008B40, symSize: 0xD4 }
+  - { offsetInCU: 0x11A, offset: 0xD1D, size: 0x8, addend: 0x0, symName: _play_as, symObjAddr: 0x344, symBinAddr: 0x100008C14, symSize: 0x15C }
+  - { offsetInCU: 0x16C, offset: 0xD6F, size: 0x8, addend: 0x0, symName: _ft_vectind, symObjAddr: 0x4A0, symBinAddr: 0x100008D70, symSize: 0x98 }
+  - { offsetInCU: 0x1A2, offset: 0xDA5, size: 0x8, addend: 0x0, symName: _play_bots, symObjAddr: 0x538, symBinAddr: 0x100008E08, symSize: 0xF0 }
+  - { offsetInCU: 0x26, offset: 0xFFD, size: 0x8, addend: 0x0, symName: _init_buttons, symObjAddr: 0x0, symBinAddr: 0x100008EF8, symSize: 0x488 }
+  - { offsetInCU: 0x41, offset: 0x1018, size: 0x8, addend: 0x0, symName: _init_buttons, symObjAddr: 0x0, symBinAddr: 0x100008EF8, symSize: 0x488 }
+  - { offsetInCU: 0x65, offset: 0x103C, size: 0x8, addend: 0x0, symName: _init_screens, symObjAddr: 0x488, symBinAddr: 0x100009380, symSize: 0x140 }
+  - { offsetInCU: 0x26, offset: 0x1289, size: 0x8, addend: 0x0, symName: _set_buttons, symObjAddr: 0x0, symBinAddr: 0x1000094C0, symSize: 0x674 }
+  - { offsetInCU: 0x3A, offset: 0x129D, size: 0x8, addend: 0x0, symName: _set_buttons, symObjAddr: 0x0, symBinAddr: 0x1000094C0, symSize: 0x674 }
+  - { offsetInCU: 0x7A, offset: 0x12DD, size: 0x8, addend: 0x0, symName: _set_players, symObjAddr: 0x674, symBinAddr: 0x100009B34, symSize: 0x354 }
+  - { offsetInCU: 0xB0, offset: 0x1313, size: 0x8, addend: 0x0, symName: _ft_reset_intm, symObjAddr: 0x9C8, symBinAddr: 0x100009E88, symSize: 0xA4 }
+  - { offsetInCU: 0xFF, offset: 0x1362, size: 0x8, addend: 0x0, symName: _reset, symObjAddr: 0xA6C, symBinAddr: 0x100009F2C, symSize: 0x194 }
+...
